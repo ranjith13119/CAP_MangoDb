@@ -1,0 +1,49 @@
+### 
+POST http://localhost:4004/customer/Customer
+Content-Type: application/json
+
+{
+    "id" : "dfdfdfdfdfdfdfdfdf",
+    "name" : "Dharenush",
+    "type": "M", 
+    "emailId": "xxx@gail.com",
+    "contactNo" : "+918072546598",
+    "address" : "test Address",
+    "companyName" : "TCS",
+    "country" : "nz"
+}
+
+###
+GET http://localhost:4004/customer/Customer?$top=1
+
+
+###
+GET http://localhost:4004/customer/Customer('622a5bd2c9fee8f5665808d1')
+
+
+### 
+POST http://localhost:4004/customer/getCustomerByCountry
+Content-Type: application/json
+
+{
+
+}
+
+###
+put http://localhost:4004/customer/Customer('622a5bd2c9fee8f5665808d1')
+Content-Type: application/json
+
+{
+    "name" : "Dhaneesha",
+    "type": "F", 
+    "emailId": "test@gail.com",
+    "contactNo" : "+918072546598",
+    "address" : "test Address",
+    "companyName" : "TCS",
+    "country" : "IN",
+    "id": "622a5bd2c9fee8f5665808d1"
+}
+
+
+###
+DELETE http://localhost:4004/customer/Customer('622a5bd2c9fee8f5665808d1')

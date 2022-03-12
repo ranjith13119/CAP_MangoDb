@@ -1,0 +1,1 @@
+HOST_URL = `mongodb://Ranjith:Edu%40123456789@cluster0-shard-00-00.dhcoj.mongodb.net:27017,cluster0-shard-00-01.dhcoj.mongodb.net:27017,cluster0-shard-00-02.dhcoj.mongodb.net:27017/customers?ssl=true&replicaSet=atlas-hvjaa4-shard-0&authSource=admin&retryWrites=true&w=majority`;
